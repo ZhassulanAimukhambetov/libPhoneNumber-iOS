@@ -6,13 +6,13 @@ let package = Package(
     name: "libPhoneNumber",
     products: [
         .library(
-            name: "libPhoneNumber",
-            targets: ["libPhoneNumber_iOS"]
+            name: "libPhoneNumber_iOS",
+            targets: ["libPhoneNumber"]
         )
     ],
     targets: [
         .target(
-            name: "libPhoneNumber_iOS",
+            name: "libPhoneNumber",
             path: "libPhoneNumber",
             exclude: ["GeneratePhoneNumberHeader.sh", "Info.plist"],
             publicHeadersPath: ".",
