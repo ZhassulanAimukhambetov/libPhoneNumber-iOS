@@ -7,12 +7,12 @@ let package = Package(
     products: [
         .library(
             name: "libPhoneNumber_iOS",
-            targets: ["libPhoneNumber"]
+            targets: ["libPhoneNumber_iOS"]
         )
     ],
     targets: [
         .target(
-            name: "libPhoneNumber",
+            name: "libPhoneNumber_iOS",
             path: "libPhoneNumber",
             exclude: ["GeneratePhoneNumberHeader.sh", "Info.plist"],
             publicHeadersPath: ".",
