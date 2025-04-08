@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "libPhoneNumber",
+    name: "libPhoneNumber_iOS",
     products: [
         .library(
             name: "libPhoneNumber_iOS",
