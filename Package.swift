@@ -3,16 +3,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "libPhoneNumber_iOS",
+    name: "libPhoneNumber",
     products: [
         .library(
-            name: "libPhoneNumber_iOS",
-            targets: ["libPhoneNumber_iOS"]
+            name: "libPhoneNumber",
+            targets: ["libPhoneNumber"]
         )
     ],
     targets: [
         .target(
-            name: "libPhoneNumber_iOS",
+            name: "libPhoneNumber",
             path: "libPhoneNumber",
             exclude: ["GeneratePhoneNumberHeader.sh", "Info.plist"],
             publicHeadersPath: ".",
